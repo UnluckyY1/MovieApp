@@ -72,7 +72,8 @@ struct MovieDetailView: View {
                 .shadow(radius: 4)
             
             VStack(alignment: .leading) {
-                HStack(alignment: .bottom,spacing: 4) {     Text(movie.title)
+                HStack(alignment: .bottom,spacing: 4) {
+                    Text(movie.title)
                         .font(.title.bold())
                         .foregroundColor(.white)
                         .multilineTextAlignment(.leading)

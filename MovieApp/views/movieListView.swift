@@ -89,7 +89,7 @@ struct ErrorView: View {
                 .foregroundColor(.black)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.background) // Use defined background color
+        .background(Color.background)
     }
 }
 
